@@ -1,0 +1,28 @@
+/* BX Slider overwrite */
+.bx-wrapper .bx-viewport{
+	-moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    left: 0;
+}
+.bx-wrapper .bx-controls-direction a{
+	width: 50px;
+	height: 50px;
+	background-color: #ccc;
+	border-radius: 50%;
+	z-index: 5;
+}
+.bx-wrapper .bx-next{
+	background: url('../../img/ico-sliderarrow-right.png') no-repeat center center;
+	background-size: 50px auto;
+}
+.bx-wrapper .bx-prev{
+	background: url('../../img/ico-sliderarrow-left.png') no-repeat center center;
+	background-size: 50px auto;
+}
+.bx-wrapper .bx-next:hover,
+.bx-wrapper .bx-prev:hover{
+	background-size: 50px auto;
+	background-position: 0;
+}

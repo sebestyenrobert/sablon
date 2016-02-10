@@ -1,0 +1,9 @@
+@import url('plugins/bxslider/jquery.bxslider.css');
+@import url('plugins/slick/slick.css');
+@import url('plugins/slick/slick-theme.css');
+@import url('plugins/fancyselect/fancySelect.css');	
+
+/* Overwrite */
+@import url('plugins/overwrite.fancyselect.css');
+@import url('plugins/overwrite.bxslider.css');
+@import url('plugins/overwrite.slick.css');
